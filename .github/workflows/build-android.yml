@@ -21,11 +21,11 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
-    - name: Create dummy API_KEYS
+    - name: Create API_KEYS
       run: |
-        echo "APP_ID=123" > API_KEYS
-        echo "APP_HASH=\"dummy\"" >> API_KEYS
-        echo "MAPS_V2_API=\"dummy\"" >> API_KEYS
+        echo "APP_ID=${{ secrets.TG_APP_ID || '123' }}" > API_KEYS
+        echo "APP_HASH=\"${{ secrets.TG_APP_HASH || 'dummy' }}\"" >> API_KEYS
+        echo "MAPS_V2_API=\"${{ secrets.MAPS_API_KEY || 'dummy' }}\"" >> API_KEYS
         echo "SIGNING_KEY_STORE_PASSWORD=dummy" >> API_KEYS
         echo "SIGNING_KEY_ALIAS=dummy" >> API_KEYS
         echo "SIGNING_KEY_PASSWORD=dummy" >> API_KEYS
