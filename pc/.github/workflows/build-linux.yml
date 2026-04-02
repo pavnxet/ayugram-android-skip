@@ -1,0 +1,43 @@
+name: Build AyuGram Skip-Silence (Linux)
+
+on:
+  push:
+    branches: [ "master", "main" ]
+  pull_request:
+    branches: [ "master", "main" ]
+  workflow_dispatch:   # manual trigger from GitHub UI
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout code + submodules
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Prepare libraries (run prepare script)
+        run: ./Telegram/build/prepare/linux.sh
+
+      - name: Build with official CentOS Docker (recommended)
+        run: |
+          docker run --rm \
+            -u $(id -u) \
+            -v "$PWD:/usr/src/tdesktop" \
+            ghcr.io/telegramdesktop/tdesktop/centos_env:latest \
+            /usr/src/tdesktop/Telegram/build/docker/centos_env/build.sh \
+            -DCMAKE_BUILD_TYPE=Release
+            # If you have API credentials, you can add them below like this:
+            # -DTDESKTOP_API_ID=${{ secrets.TDESKTOP_API_ID }} \
+            # -DTDESKTOP_API_HASH=${{ secrets.TDESKTOP_API_HASH }}
+
+      - name: Upload Linux build (AppImage + binary)
+        uses: actions/upload-artifact@v4
+        with:
+          name: AyuGram-Skip-Silence-Linux
+          path: |
+            out/Release/AyuGram
+            out/Release/*.AppImage
+          retention-days: 14

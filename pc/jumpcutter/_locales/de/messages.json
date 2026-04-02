@@ -1,0 +1,265 @@
+{
+   "about": {
+      "message": "Über"
+   },
+   "absolute": {
+      "message": "absolut"
+   },
+   "action": {
+      "message": "Aktion"
+   },
+   "advance": {
+      "message": "Vorspulen (Sekunden)"
+   },
+   "applyTo": {
+      "message": "Anwenden auf"
+   },
+   "applyToBoth": {
+      "message": "Sowohl Video- als auch Audioelemente"
+   },
+   "applyToOnly": {
+      "message": "nur $type$-Elemente",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "audio": {
+      "message": "Audio"
+   },
+   "chartHeightPx": {
+      "message": "Höhe (Pixel)"
+   },
+   "chartLengthInSeconds": {
+      "message": "Länge in Sekunden"
+   },
+   "chartSpeed": {
+      "message": "Bewegungsgeschwindigkeit"
+   },
+   "chartSpeedIntrinsicTime": {
+      "message": "Entspricht der aktuellen Videogeschwindigkeit"
+   },
+   "chartSpeedRealTime": {
+      "message": "Konstant (Echtzeit)"
+   },
+   "chartSpeedSoundedSpeedTime": {
+      "message": "Entspricht der aktuellen Videogeschwindigkeit, relativ zur Klanggeschwindigkeit"
+   },
+   "chartWidthPx": {
+      "message": "Breite (Pixel)"
+   },
+   "chat": {
+      "message": "Chat"
+   },
+   "comparedToIntrinsic": {
+      "message": "im Vergleich zu normal (intrinsisch)"
+   },
+   "comparedToIntrinsicWithoutSkipping": {
+      "message": "Zeitersparnis im Vergleich zur Wiedergabe des Videos mit 1x (normaler, intrinsischer) Geschwindigkeit"
+   },
+   "comparedToSounded": {
+      "message": "im Vergleich zu \"laut\""
+   },
+   "comparedToSoundedWithoutSkipping": {
+      "message": "Zeitersparnis im Vergleich zum Abspielen des Videos in normaler Geschwindigkeit ($speed$)",
+      "placeholders": {
+         "speed": {
+            "content": "$1"
+         }
+      }
+   },
+   "contact": {
+      "message": "Kontakt"
+   },
+   "contentScriptFail": {
+      "message": "Das Inhaltsskript konnte auf dieser Seite nicht ausgeführt werden"
+   },
+   "decreaseVolume": {
+      "message": "Lautstärke verringern (%)"
+   },
+   "donate": {
+      "message": "Spenden"
+   },
+   "edit": {
+      "message": "Bearbeiten"
+   },
+   "enable": {
+      "message": "Aktivieren"
+   },
+   "extensionDescription": {
+      "message": "Schaue Vorlesungen ~1,5x schneller an, indem lange Pausen zwischen Sätzen vorgespult werden"
+   },
+   "fileInputLabel": {
+      "message": "Eine oder mehrere Dateien hier ablegen\noder klicken Sie zur Auswahl"
+   },
+   "general": {
+      "message": "Allgemein"
+   },
+   "hasErrors": {
+      "message": "Fehler gefunden"
+   },
+   "helpTranslate": {
+      "message": "Beim Übersetzen helfen"
+   },
+   "increaseVolume": {
+      "message": "Lautstärke erhöhen (%)"
+   },
+   "input": {
+      "message": "Eingabe"
+   },
+   "license": {
+      "message": "Lizenz"
+   },
+   "loading": {
+      "message": "Wird geladen"
+   },
+   "marginAfter": {
+      "message": "Platz nachher"
+   },
+   "marginBefore": {
+      "message": "Platz vorher"
+   },
+   "marginBeforeTooltip": {
+      "message": "Wenn es gerade still ist und wir einen lauten Teil hoeren, wie viele Sekunden vorher muessen wir es langsam abspielen (aenderung zur \"lauten\" Geschwindigkeit).\nDies ist da, damit man die ersten Buchstaben deutlich verstehen kann, wenn irgendjemand anfaengt zu sprechen.\n\n⚠️ Nicht-null-werte werden zu einer Audioverzerrung fuehren when switching from silence to sounded speed AND will add constant audio DELAY equivalent to the value of this setting. These drawbacks do not apply if you use the \"experimental algorithm\"."
+   },
+   "max": {
+      "message": "Max."
+   },
+   "meta": {
+      "message": "Meta"
+   },
+   "min": {
+      "message": "Min."
+   },
+   "more": {
+      "message": "Mehr"
+   },
+   "noSuitableElement": {
+      "message": "Es konnte kein passendes Medienelement auf der Seite gefunden werden"
+   },
+   "none": {
+      "message": "Keine"
+   },
+   "numbersMeanings": {
+      "message": "Zahlen' Bedeutungen (in Reihenfolge):"
+   },
+   "omitMutedElements": {
+      "message": "Nicht auf stummgeschaltete Medienelemente anwenden"
+   },
+   "openLocalFile": {
+      "message": "eine lokale Datei öffnen"
+   },
+   "or": {
+      "message": "Oder"
+   },
+   "overTheLast": {
+      "message": "In den letzten $duration$",
+      "placeholders": {
+         "duration": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup": {
+      "message": "Popup"
+   },
+   "popupAdvancedMode": {
+      "message": "Erweiterte Einstellungen"
+   },
+   "relativeToSounded": {
+      "message": "relativ zur Ton Geschwindigkeit"
+   },
+   "removeBinding": {
+      "message": "Bindung entfernen"
+   },
+   "resetToDefaults": {
+      "message": "Auf Standardwerte zurücksetzen"
+   },
+   "retry": {
+      "message": "Wiederholen"
+   },
+   "rewind": {
+      "message": "Zurückspulen (Sekunden)"
+   },
+   "saved": {
+      "message": "Gespeichert"
+   },
+   "saving": {
+      "message": "Wird gespeichert…"
+   },
+   "showErrors": {
+      "message": "Fehler anzeigen"
+   },
+   "silenceSpeed": {
+      "message": "Stille Geschwindigkeit"
+   },
+   "silenceSpeedTooltip": {
+      "message": "Die Geschwindigkeit, mit der die stillen Stellen abgespielt werden.\nIm Graphen werden diese Stellen in rot 🟥 eingezeichnet.$relativeNote$\n⚠️ Ist dieser Wert sehr groß (> ~4) werden die Anfänge der Sätze auch übersprungen. (Wie wenn \"Abstand vorher\" kleiner ist).",
+      "placeholders": {
+         "relativeNote": {
+            "content": "$1"
+         }
+      }
+   },
+   "silenceSpeedTooltipRelativeNote": {
+      "message": "\nEs ist als multiplier der \"lauten\" Geschwindigkeit, also wenn z.b. die \"laute\" Geschwindigkeit 1.5 ist und die \"leise\" Geschwindigkeit 2 is, wird der absolute wert 3 sein. Man kann diese Funktionalität in der Einstellungsseite verändern."
+   },
+   "skipLess": {
+      "message": "Weniger überspringen"
+   },
+   "skipMore": {
+      "message": "Mehr überspringen"
+   },
+   "soundedSpeed": {
+      "message": "Reguläre Geschwindigkeit"
+   },
+   "soundedSpeedTooltip": {
+      "message": "Die Geschwindigkeit, mit der wir das Video abspielen wenn es gerade NICHT still ist, also die \"normale\" Geschwindigkeit.\nAuf dem Graph sind die Stellen mit der Geschwindigkeit in grün 🟩 eingezeichnet."
+   },
+   "step": {
+      "message": "Schritt"
+   },
+   "timeSaved": {
+      "message": "Informationen zur Zeitersparnis"
+   },
+   "timeSavedComparedToIntrinsic": {
+      "message": "Im Durchschnitt wie viel schneller das Video sich abspielt im Vergleich mit der normalen (intrinsischen) Geschwindigkeit"
+   },
+   "timeSavedComparedToIntrinsicAbs": {
+      "message": "Zeitersparnis im Vergleich zur Wiedergabe des Videos mit normaler (intrinsischer) Geschwindigkeit"
+   },
+   "timeSavedComparedToSounded": {
+      "message": "Im Durchschnitt wie viel schneller das Video abgespielt wird im Vergleich mit der \"lauten\" Geschwindigkeit"
+   },
+   "timeSavedComparedToSoundedAbs": {
+      "message": "Zeitersparnis im Vergleich zum Abspielen des Videos in normaler Geschwindigkeit"
+   },
+   "timeSavedPercentage": {
+      "message": "Zeiteinsparung in Prozent"
+   },
+   "tryOpeningDirectly": {
+      "message": "Versuchen sie es direkt zu öffnen"
+   },
+   "useExperimentalAlgorithm": {
+      "message": "Experimentellen Algorithmus verwenden"
+   },
+   "useExperimentalAlgorithmTooltip": {
+      "message": "➕ 🆕 Now works on most websites!\n➕ Leise Segmente werden übersprungen. Keine Beschleunigung.\n➕ Kein Audio Verzerrung, Verzögerung oder Unsynchronisierung\n➖ May break playback-related functionality on some websites.\n➖ Graph zeigt die Lautstärke der leisen Regionen nicht an. Er zeigt stattdessen nur 0."
+   },
+   "value": {
+      "message": "Wert"
+   },
+   "video": {
+      "message": "video"
+   },
+   "volumeThreshold": {
+      "message": "Geringste Sprachlautstärke"
+   },
+   "volumeThresholdTooltip": {
+      "message": "Wenn die Lautstärke unter dem Wert liegt, wird die Stelle beschleunigt.\nAuf dem Graphen ist das in Rot 🟥 eingezeichnet. Das Blaue 🟦 ist die jetzige Lautstärke. Ist diese unter der roten Linie, wird das als stille bewertet."
+   },
+   "wheneverPlaybackRateChangesFromOtherScripts": {
+      "message": "Wenn die Wiedergaberate durch andere Skripte verändert wird"
+   }
+}

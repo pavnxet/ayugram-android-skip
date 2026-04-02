@@ -1,0 +1,416 @@
+{
+   "about": {
+      "message": "Om"
+   },
+   "absolute": {
+      "message": "absolutt"
+   },
+   "absoluteSilenceSpeedClarification": {
+      "message": " (relativt til normal (iboende) mediahastighet)"
+   },
+   "action": {
+      "message": "Handling"
+   },
+   "addBinding": {
+      "message": "Legg til ny hurtigtast"
+   },
+   "advance": {
+      "message": "Hopp forover (sekunder)"
+   },
+   "alsoSearchFor": {
+      "message": "Søk etter $type$-elementer også",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "alwaysShowOpenLocalFileLink": {
+      "message": "Vis «$openLocalFileLabel$»-lenken",
+      "placeholders": {
+         "openLocalFileLabel": {
+            "content": "$1"
+         }
+      }
+   },
+   "applyTo": {
+      "message": "Bruk for"
+   },
+   "applyToBoth": {
+      "message": "Både video- og lyd-elementer"
+   },
+   "applyToOnly": {
+      "message": "Kun $type$-elementer",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "audio": {
+      "message": "lyd"
+   },
+   "autofocusEnabledInput": {
+      "message": "Fokuser på «$enableCheckboxLabel$»-avkryssningsboksen når et oppsprett åpnes",
+      "placeholders": {
+         "enableCheckboxLabel": {
+            "content": "$1"
+         }
+      }
+   },
+   "badgeWhatSettingToDisplayByDefault": {
+      "message": "Hvilken innstillingsverdi som skal vises som forvalg"
+   },
+   "chart": {
+      "message": "Diagram"
+   },
+   "chartHeightPx": {
+      "message": "Høyde (piksler)"
+   },
+   "chartJumpPeriod": {
+      "message": "Hopp-periode, %. Uttrykt som en del av diagramslengde. Sett til «0» for myk bevegelse (ingen hopp)."
+   },
+   "chartLengthInSeconds": {
+      "message": "Lengde i sekunder"
+   },
+   "chartSpeed": {
+      "message": "Bevegelseshastighet"
+   },
+   "chartSpeedIntrinsicTime": {
+      "message": "Lik nåværende videohastighet"
+   },
+   "chartSpeedRealTime": {
+      "message": "Konstant (sanntid)"
+   },
+   "chartSpeedSoundedSpeedTime": {
+      "message": "Samme som nåværende videohastighet, som gitt av lydmessig hastighet"
+   },
+   "chartWidthPx": {
+      "message": "Bredde (piksler)"
+   },
+   "comparedToIntrinsic": {
+      "message": "sammenlignet med normal (iboende)"
+   },
+   "comparedToIntrinsicWithoutSkipping": {
+      "message": "Tid spart sammenlignet med å spille videoen i 1x (normal, iboende) hastighet uten å hoppe over stillhet"
+   },
+   "comparedToSounded": {
+      "message": "sammenlignet med lydmessig"
+   },
+   "comparedToSoundedWithoutSkipping": {
+      "message": "Tid spart sammenlignet med å spille videoen i lydmessig hastighet ($speed$) uten å hoppe over stillhet",
+      "placeholders": {
+         "speed": {
+            "content": "$1"
+         }
+      }
+   },
+   "contact": {
+      "message": "Kontakt"
+   },
+   "contentScriptFail": {
+      "message": "Kunne ikke kjøre innholdsskript på denne siden"
+   },
+   "couldGetMuted": {
+      "message": "den kan bli forstummet når man fester seg til den"
+   },
+   "decreaseVolume": {
+      "message": "Senk lydstyrken (%s)"
+   },
+   "disableHotkeysWhileInputFocused": {
+      "message": "Skru av hurtigtaster når et inndatafelt er i fokus"
+   },
+   "downloadFromSync": {
+      "message": "Last ned innstillinger fra synkroniseringslagring"
+   },
+   "edit": {
+      "message": "Rediger"
+   },
+   "enable": {
+      "message": "Skru på"
+   },
+   "enableDesyncCorrection": {
+      "message": "Skru på desynkroniserings-korrigering av lyd/bilde (bieffekt: ikke merkbar rykking ca. hvert minutt)"
+   },
+   "enableHotkeys": {
+      "message": "Skru på hurtigtaster"
+   },
+   "extensionDescription": {
+      "message": "Hopper over stille deler i videoer (i sanntid)"
+   },
+   "fileInputLabel": {
+      "message": "Slipp én eller flere filer her\neller klikk for å velge"
+   },
+   "general": {
+      "message": "Generelt"
+   },
+   "hasErrors": {
+      "message": "Fant feil"
+   },
+   "hotkey": {
+      "message": "Hurtigtast"
+   },
+   "hotkeys": {
+      "message": "Hurtigtaster"
+   },
+   "hotkeysNotes": {
+      "message": "Valgtast (Ctrl, Shift, osv.) støttes.\nFlere handlinger kan knyttes til én tast. Dette kan brukes for å lage «profiler».\nForskjellen mellom «$switch$» og «=» (altså «sett»)-handlinger er at «$switch$» veksler verdi mellom den for forrige verdi og hurtigtastens argument, mens «sett» alltid setter den til argumentets verdi.\nHurtigtaster er også aktive når oppsprettet er åpent.",
+      "placeholders": {
+         "switch": {
+            "content": "$1"
+         }
+      }
+   },
+   "iconBadge": {
+      "message": "Ikon-skilt"
+   },
+   "increaseVolume": {
+      "message": "Øk lydstyrken (%)"
+   },
+   "input": {
+      "message": "Inndata"
+   },
+   "loading": {
+      "message": "Laster inn"
+   },
+   "marginAfter": {
+      "message": "Margin etter"
+   },
+   "marginAfterTooltip": {
+      "message": "Dette ligner «Margin før». Ved skifte fra høy til stille lydstyrke, angir det hvor mange sekunder som må gå før hastigheten økes (bytte til stille hastighet).\nFor det meste fjerner dette pauser i tale i noen grad, slik at ord ikke klemmes sammen, og for at du skal kunne høre hvert ord i siste setning.\nUlikt «Margin før» fører ikke dette til lydforvrengning og forsinkelse (men det betyr ikke at disse innstillingene kan byttes ut med hverandre)."
+   },
+   "marginBefore": {
+      "message": "Margin før"
+   },
+   "marginBeforeTooltip": {
+      "message": "Når det er stille og en del med høy lydstyrke kommer, angir dette hvor mange sekunder tidligere hastigheten skal sakkes ned (bytte til lydmessig hastighet).\n\n⚠️ Mer at verdier som ikke er null vil lede til forvrengning ved bytte fra stillhet til lydmessig hastighet og konstant lydforsinkelse vil bli lagt til, i henhold til verdien av innstillingen.\nDisse bakdelene inntreffer ikke hvis du bruker «Eksperimentell algoritme»."
+   },
+   "max": {
+      "message": "Maks."
+   },
+   "mediaUnsupported": {
+      "message": "Media-en er **sannsynlig** ustøttet — $consequences$.",
+      "placeholders": {
+         "consequences": {
+            "content": "$1"
+         }
+      }
+   },
+   "meta": {
+      "message": "Meta"
+   },
+   "min": {
+      "message": "Min."
+   },
+   "more": {
+      "message": "Mer"
+   },
+   "noSuitableElement": {
+      "message": "Fant ikke passende mediaelement på siden"
+   },
+   "none": {
+      "message": "Ingen"
+   },
+   "numbersMeanings": {
+      "message": "Tallfølgens mening (i rekkefølge):"
+   },
+   "openLocalFile": {
+      "message": "åpne en lokal fil"
+   },
+   "openPopup": {
+      "message": "Åpne oppsprett"
+   },
+   "or": {
+      "message": "Eller"
+   },
+   "overTheLast": {
+      "message": "I løpet av de siste $duration$",
+      "placeholders": {
+         "duration": {
+            "content": "$1"
+         }
+      }
+   },
+   "overrideWebsiteHotkeys": {
+      "message": "Overstyr nettside-hurtigtaster"
+   },
+   "popup": {
+      "message": "Oppsprett"
+   },
+   "popupAdvancedMode": {
+      "message": "Avanserte innstillinger"
+   },
+   "popupSpecificHotkeys": {
+      "message": "Hurtigtaster for oppsprett"
+   },
+   "rangeSlidersAttributes": {
+      "message": "Attributter for områdeglidebrytere"
+   },
+   "rangeSlidersAttributesNote": {
+      "message": "Husk at nettlesere ikke støtter avspillingstakt over en gitt grense.\nDa denne versjonen ble laget var det 16 for Chromium (Chrome, Edge) og 8 (som forvalg) for Gecko (Firefox)."
+   },
+   "refreshIfMuted": {
+      "message": "Gjenoppfrisk siden hvis mediaen ble forstummet"
+   },
+   "relativeToSounded": {
+      "message": "relativ til lydmessig hastighet"
+   },
+   "removeBinding": {
+      "message": "Fjern tastaturbinding"
+   },
+   "resetToDefaults": {
+      "message": "Tilbakestill til forvalg"
+   },
+   "retry": {
+      "message": "Prøv igjen"
+   },
+   "rewind": {
+      "message": "Spol tilbake (sekunder)"
+   },
+   "saved": {
+      "message": "Lagret"
+   },
+   "saving": {
+      "message": "Lagrer …"
+   },
+   "showErrors": {
+      "message": "Vis feil"
+   },
+   "silenceSkippingWontWork": {
+      "message": "å hoppe over stillhet vil ikke fungere riktig"
+   },
+   "silenceSpeed": {
+      "message": "Stillhetshastighet"
+   },
+   "silenceSpeedSpecificationMethod": {
+      "message": "Spesifiseringsmetode for stillhetshastighet"
+   },
+   "silenceSpeedTooltip": {
+      "message": "Hastigheten for avspilling av stille deler.\nPå diagrammet har delene som spilles på denne hastigheten rød 🟥 bakgrunn.$relativeNote$\n⚠️ Hvis verdien er veldig høy (> ~4) kan det hende at man hopper over begynnelsen på setninger (som om «Margin før» er mindre).",
+      "placeholders": {
+         "relativeNote": {
+            "content": "$1"
+         }
+      }
+   },
+   "silenceSpeedTooltipRelativeNote": {
+      "message": "\nMerk at det er angitt som en multiplikator av lydmessig hastighet, så hvis for eksempel lydmessig hastighet er 1,5 og stillhetshastigheten er 2, vil resulterende absolutt verdi være 3. Du kan endre adferden på innstillingssiden."
+   },
+   "soundedSpeed": {
+      "message": "Lydmessig hastighet"
+   },
+   "soundedSpeedTooltip": {
+      "message": "Hastigheten videoen spilles av på når den IKKE er stille, altså «normal» hastighet.\nPå diagrammet har delene som spilles med denne hastigheten grønn 🟩 bakgrunn."
+   },
+   "step": {
+      "message": "Steg"
+   },
+   "suggestOpenLocalFile": {
+      "message": "Prøver å **$openLocalFile$**?",
+      "placeholders": {
+         "openLocalFile": {
+            "content": "$1"
+         }
+      }
+   },
+   "switch": {
+      "message": "veksle"
+   },
+   "timeSaved": {
+      "message": "Info om spart tid"
+   },
+   "timeSavedAveragingMethod": {
+      "message": "Metode for innhenting av gjennomsnitt"
+   },
+   "timeSavedAveragingMethodAllTime": {
+      "message": "Totalt gjennomsnitt (uten forvitring)"
+   },
+   "timeSavedAveragingMethodExponential": {
+      "message": "Kun ta hensyn til siste data (eksponentiell forvitring)"
+   },
+   "timeSavedAveragingWindowLength": {
+      "message": "Kun ta hensyn til avspilling de N siste sekundene"
+   },
+   "timeSavedComparedToIntrinsic": {
+      "message": "I gjennomsnitt hvor mye raskere videoen effektivt spilles sammenlignet med normal (iboende) hastighet"
+   },
+   "timeSavedComparedToIntrinsicAbs": {
+      "message": "Tid spart sammenlignet med å spille videoen i normal (iboende) hastighet"
+   },
+   "timeSavedComparedToSounded": {
+      "message": "I gjennomsnitt hvor mye raskere videoen effektivt spilles sammenlignet med lydmessig hastighet"
+   },
+   "timeSavedComparedToSoundedAbs": {
+      "message": "Tid spart sammenlignet med å spille videoen i lydmessig hastighet"
+   },
+   "timeSavedDataWeightDecayTimeConstant": {
+      "message": "Resulterende halveringstid for datavekt: $length$ sekunder",
+      "placeholders": {
+         "length": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeSavedExponentialAveragingLatestDataWeight": {
+      "message": "Gjennomsnittsvekting for siste avspillingsperiode"
+   },
+   "timeSavedPercentage": {
+      "message": "Prosentvis spart tid"
+   },
+   "toggleMute": {
+      "message": "Forstum/opphev forstummelse"
+   },
+   "togglePause": {
+      "message": "Pause/spill"
+   },
+   "tryAttachAnyway": {
+      "message": "Prøv uansett"
+   },
+   "tryOpeningDirectly": {
+      "message": "Prøv å åpne det direkte"
+   },
+   "uploadToSync": {
+      "message": "Last opp innstillinger til synkroniseringslagring"
+   },
+   "useExperimentalAlgorithm": {
+      "message": "Bruk eksperimentell algoritme"
+   },
+   "useExperimentalAlgorithmTooltip": {
+      "message": "➕ 🆕 Now works on most websites!\n➕ Tillater å hoppe over stille deler helt, istedenfor å spille dem i raskere tempo.\n➕ Ingen lydforvrengning, forsinkelse, eller avsynkronisering.\n➖ May break playback-related functionality on some websites.\n➖ Diagrammet vil ikke vise faktisk lydstyrke for stille deler (det vil kun vise 0 istedenfor)."
+   },
+   "useSeparateMarginSettingsForDifferentAlgorithms": {
+      "message": "Bruk forskjellig «$marginBeforeLabel$» og «$marginAfterLabel$» for forskjellige algoritmer (som har med «$useExperimentalAlgorithmLabel$»-innstillingen å gjøre)",
+      "placeholders": {
+         "marginAfterLabel": {
+            "content": "$2"
+         },
+         "marginBeforeLabel": {
+            "content": "$1"
+         },
+         "useExperimentalAlgorithmLabel": {
+            "content": "$3"
+         }
+      }
+   },
+   "value": {
+      "message": "Verdi"
+   },
+   "video": {
+      "message": "video"
+   },
+   "volume": {
+      "message": "Lydstyrke\nIkke hvor høyt materialet er gjennomsnittlig, men forsterkningsmultiplikatoren, som på TV"
+   },
+   "volumeThreshold": {
+      "message": "Lydstyrketerskel"
+   },
+   "volumeThresholdTooltip": {
+      "message": "Hvor stille det må være før hastigheten økes.\nPå diagrammet er dette den røde 🟥 vannrette linjen. Den blå 🟦 linjen er nåværende lydstyrke, så når den blå linjen er under den rød, oppfattes dette som stillhet."
+   },
+   "wouldHaveLastedIfSpeedWasIntrinsic": {
+      "message": "Hvor lenge avspilling ville tatt i normal (iboende) hastighet UTEN å hoppe over stillhet"
+   },
+   "wouldHaveLastedIfSpeedWasSounded": {
+      "message": "Hvor lenge avspilling ville tatt i lydmessig hastighet UTEN å hoppe over stillhet"
+   }
+}

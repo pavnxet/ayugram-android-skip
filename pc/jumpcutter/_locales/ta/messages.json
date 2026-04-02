@@ -1,0 +1,470 @@
+{
+   "about": {
+      "message": "பற்றி"
+   },
+   "absolute": {
+      "message": "சார்பிலா"
+   },
+   "absoluteSilenceSpeedClarification": {
+      "message": " (a.k.a. இயல்பான (உள்ளார்ந்த) ஊடக வேகத்துடன் தொடர்புடையது)"
+   },
+   "action": {
+      "message": "செயல்"
+   },
+   "addBinding": {
+      "message": "புதிய சூடானவிசை சேர்"
+   },
+   "advance": {
+      "message": "முன்னாடி (நாடிகள்)"
+   },
+   "alsoSearchFor": {
+      "message": "$type$ கூறுகளையும் தேடு",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "alwaysShowOpenLocalFileLink": {
+      "message": "\"$openLocalFileLabel$\" இணைப்பைக் காட்டு",
+      "placeholders": {
+         "openLocalFileLabel": {
+            "content": "$1"
+         }
+      }
+   },
+   "applyTo": {
+      "message": "இதற்கு இடு"
+   },
+   "applyToBoth": {
+      "message": "காணொளி மற்றும் ஒலி கூறுகள் இரண்டும்"
+   },
+   "applyToOnly": {
+      "message": "$type$ கூறுகள் மட்டும்",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "audio": {
+      "message": "ஒலிதம்"
+   },
+   "autofocusEnabledInput": {
+      "message": "தானியங்கிக் குவியம் மேல் மீட்பு திறக்கும்போது \"$enableCheckboxLabel$\" தேர்வுப்பெட்டியை தேர்வு",
+      "placeholders": {
+         "enableCheckboxLabel": {
+            "content": "$1"
+         }
+      }
+   },
+   "badgeWhatSettingToDisplayByDefault": {
+      "message": "இயல்புநிலையாகக் காண்பிக்க என்ன மதிப்பு"
+   },
+   "changeElementSearchCriteria": {
+      "message": "தேடல் அளவுகோல்களை மாற்று…"
+   },
+   "chart": {
+      "message": "விளக்கப்படம்"
+   },
+   "chartHeightPx": {
+      "message": "உயரம் (புள்ளிகள்)"
+   },
+   "chartJumpPeriod": {
+      "message": "தாண்டு நீளம், %. விளக்கப்பட நீளத்தின் ஒரு பகுதியாக வெளிப்படுத்தப்படுகிறது. மென்மையான இயக்கத்திற்கு 0 ஆக அமைக்கவும் (தாவல்கள் இல்லை)."
+   },
+   "chartLengthInSeconds": {
+      "message": "நொடிகளில் நீளம்"
+   },
+   "chartSpeed": {
+      "message": "இயக்க விரைவு"
+   },
+   "chartSpeedIntrinsicTime": {
+      "message": "தற்போதைய காணொளி வேகத்தைப் போலவே"
+   },
+   "chartSpeedRealTime": {
+      "message": "மாறிலி (நிகழ்நேர)"
+   },
+   "chartSpeedSoundedSpeedTime": {
+      "message": "தற்போதைய காணொளி வேகத்தைப் போலவே, ஒலிக்கும் வேகத்துடன் தொடர்புடையது"
+   },
+   "chartWidthPx": {
+      "message": "அகலம் (புள்ளிகள்)"
+   },
+   "chat": {
+      "message": "அரட்டை"
+   },
+   "comparedToIntrinsic": {
+      "message": "இயல்புடன் ஒப்பிடும்போது (உள்ளார்ந்த)"
+   },
+   "comparedToIntrinsicWithoutSkipping": {
+      "message": "இயல்பான (உள்ளார்ந்த) வேகத்தில் காணொளியை விளையாடுவதோடு ஒப்பிடும்போது நேரம் சேமிக்கப்பட்டது"
+   },
+   "comparedToSounded": {
+      "message": "ஒலியுடன் ஒப்பிடும்போது"
+   },
+   "comparedToSoundedWithoutSkipping": {
+      "message": "காணொளியை ஒலித்த வேகத்தில் விளையாடுவதோடு ஒப்பிடும்போது நேரம் சேமிக்கப்பட்டது",
+      "placeholders": {
+         "speed": {
+            "content": "$1"
+         }
+      }
+   },
+   "contact": {
+      "message": "தொடர்பு"
+   },
+   "contentScriptFail": {
+      "message": "இந்தப் பக்கத்தில் உள்ளடக்க கைஉரையை இயக்க முடியவில்லை"
+   },
+   "couldGetMuted": {
+      "message": "நாம் அதை இணைத்தால் அது ஒலி முடக்கலாம்"
+   },
+   "decreaseSettingValue": {
+      "message": "குறை"
+   },
+   "decreaseVolume": {
+      "message": "அளவைக் குறை (%)"
+   },
+   "disableHotkeysWhileInputFocused": {
+      "message": "உள்ளீடு கவனம் செலுத்தும்போது சூடானவிசையை முடக்கு"
+   },
+   "doNothingWheneverPlaybackRateChanges": {
+      "message": "மேலே எதுவும் இல்லை. மற்ற கைஉரைகளிலிருந்து பின்னணி வீத மாற்றங்களைப் புறக்கணி."
+   },
+   "donate": {
+      "message": "நன்கொடை"
+   },
+   "downloadFromSync": {
+      "message": "ஒத்திசைவு சேமிப்பகத்திலிருந்து அமைப்புகளைப் பயன்படுத்துங்கள்"
+   },
+   "edit": {
+      "message": "தொகு"
+   },
+   "enable": {
+      "message": "இயக்கு"
+   },
+   "enableHotkeys": {
+      "message": "சூடானவிசை இயக்கு"
+   },
+   "estimatedRemainingDuration": {
+      "message": "மீதமுள்ள நிகழ்நேர காலம் மதிப்பிடப்பட்டுள்ளது:"
+   },
+   "extensionDescription": {
+      "message": "வாக்கியங்களுக்கு இடையில் தானாகவே நீண்ட இடைநிறுத்தங்களைத் தவிர்ப்பதன் மூலம் 2x வரை காணொளிகளைப் பாருங்கள்"
+   },
+   "fileInputLabel": {
+      "message": "ஒன்று அல்லது பல கோப்புகளை இங்கே விடுங்கள்\nஅல்லது தேர்ந்தெடுக்க சொடுக்குக"
+   },
+   "general": {
+      "message": "பொது"
+   },
+   "hasErrors": {
+      "message": "பிழைகள் காணப்பட்டன"
+   },
+   "helpTranslate": {
+      "message": "மொழிபெயர்க்க உதவு"
+   },
+   "hotkey": {
+      "message": "சூடானவிசை"
+   },
+   "hotkeys": {
+      "message": "சூடானவிசைகள்"
+   },
+   "hotkeysNotes": {
+      "message": "மாற்றியமைக்கும் விசைகள் (கட்டுப்பாடு, உயர்த்து, போன்றவை) ஆதரிக்கப்படுகின்றன.\nபல செயல்களை ஒரு விசையுடன் பிணைக்க முடியும். \"தன்விவரங்களை\" உருவாக்க இதைப் பயன்படுத்தலாம்.\n\"$switch$\" மற்றும் \"=\" (a.k.a \"அமை\") செயல்களுக்கு இடையிலான வேறுபாடு என்னவென்றால், \"$switch$\" முந்தைய மதிப்புக்கும் சூடானவிசையின் வாதத்திற்கும் இடையிலான மதிப்பை மாற்றுகிறது, அதே நேரத்தில் \"அமை\" அதை எப்போதும் வாதத்தின் மதிப்புக்கு அமைக்கிறது.\nபாப்அப் திறந்திருக்கும்போது சூடானவிசைகளும் செயலில் உள்ளன.",
+      "placeholders": {
+         "switch": {
+            "content": "$1"
+         }
+      }
+   },
+   "iconBadge": {
+      "message": "நீட்டிப்பின் படவுரு ஒட்டு"
+   },
+   "increaseSettingValue": {
+      "message": "அதிகமாக்கு"
+   },
+   "increaseVolume": {
+      "message": "அளவை அதிகரி (%)"
+   },
+   "input": {
+      "message": "உள்ளீடு"
+   },
+   "license": {
+      "message": "உரிமம்"
+   },
+   "loading": {
+      "message": "ஏற்றுகிறது"
+   },
+   "marginAfter": {
+      "message": "பின் விளிம்பு"
+   },
+   "marginAfterTooltip": {
+      "message": "இது \"விளிம்பு முன்\" போன்றது. அது சத்தமாகவும் பின்னர் அமைதியாகவும் இருந்தபோது, வேகப்படுத்துவதற்கு முன்பு எத்தனை நொடிகள் காத்திருக்க வேண்டும் (அமைதி வேகத்திற்கு மாறுகிறது).\n இது பெரும்பாலும் பேச்சில் இடைநிறுத்தங்களை குறைந்தபட்சம் ஓரளவாவது வைத்திருக்க வேண்டும், எனவே சொற்கள் ஒன்றிணைக்கப்படாது, மேலும் ஒரு வாக்கியத்தின் கடைசி எழுத்துகளை நீங்கள் தெளிவாகக் கேட்க முடியும் என்பதை உறுதிப்படுத்தவும்.\n \"விளிம்பு முன்\" போலல்லாமல் இது ஒலி விலகல் மற்றும் தாமதத்தை ஏற்படுத்தாது (ஆனால் இந்த அமைப்புகள் ஒன்றோடொன்று மாறக்கூடியவை என்று சொல்ல முடியாது)."
+   },
+   "marginBefore": {
+      "message": "முன் விளிம்பு"
+   },
+   "marginBeforeTooltip": {
+      "message": "இது தற்போது அமைதியாக இருக்கும்போது, பின்னர் நாம் ஒரு உரத்த பகுதியை எதிர்கொள்கிறோம், அதற்கு எத்தனை நொடிகளுக்கு முன்பு நாம் மெதுவாக இருக்க வேண்டும் (ஒலி வேகத்திற்கு மாறவும்).\nயாராவது பேசத் தொடங்கும்போது முதல் எழுத்துகளை நீங்கள் தெளிவாகக் கேட்க முடியும் என்பதை உறுதிப்படுத்த இது பெரும்பாலும் உள்ளது.\n\n⚠️ சுழியமற்ற மதிப்புகள் அமைதியிலிருந்து ஒலிக்கும் வேகத்திற்கு மாறும்போது ஒலி விலகலை ஏற்படுத்தும் என்பதை நினைவில் கொள்க, மேலும் இந்த அமைப்பின் மதிப்புக்குச் சமமான நிலையான ஒலி தாமதத்தை சேர்க்கும். நீங்கள் \"சோதனை வழிமுறையை\" பயன்படுத்தினால் இந்தக் குறைபாடுகள் பொருந்தாது."
+   },
+   "max": {
+      "message": "பெரும"
+   },
+   "mediaUnsupported": {
+      "message": "இந்த ஊடகம் **இயல்பாக** ஆதரிக்கப்படாதது — $consequences$.",
+      "placeholders": {
+         "consequences": {
+            "content": "$1"
+         }
+      }
+   },
+   "meta": {
+      "message": "மேவு"
+   },
+   "min": {
+      "message": "குறைந்த"
+   },
+   "more": {
+      "message": "மேலும்"
+   },
+   "noSuitableElement": {
+      "message": "பக்கத்தில் பொருத்தமான ஊடக உறுப்பைக் கண்டுபிடிக்க முடியவில்லை"
+   },
+   "none": {
+      "message": "எதுவுமில்லை"
+   },
+   "numbersMeanings": {
+      "message": "எண்களின் பொருள்கள் (வரிசையில்):"
+   },
+   "omitMutedElements": {
+      "message": "முடக்கிய ஊடக கூறுகளுக்கு இட வேண்டாம்"
+   },
+   "openLocalFile": {
+      "message": "உள்ளக கோப்பைத் திற"
+   },
+   "openPopup": {
+      "message": "மேல் மீட்பு திற"
+   },
+   "or": {
+      "message": "அல்லது"
+   },
+   "overTheLast": {
+      "message": "கடைசி $duration$ மேல்",
+      "placeholders": {
+         "duration": {
+            "content": "$1"
+         }
+      }
+   },
+   "overrideWebsiteHotkeys": {
+      "message": "வலைத்தள சூடானவிசையை மேலெழுது"
+   },
+   "popup": {
+      "message": "மேல் மீட்பு"
+   },
+   "popupAdvancedMode": {
+      "message": "மேம்பட்ட அமைப்புகள்"
+   },
+   "popupSpecificHotkeys": {
+      "message": "மேல் மீட்பு-குறிப்பிட்ட சூடானவிசை"
+   },
+   "preventOtherScriptsFromChangingPlaybackRate": {
+      "message": "நான் பார்வையிடும் சில வலைத்தளங்களில், மீட்பொலித்தல் வீதம் எதிர்பாராத விதத்தில் மாற்றப்பட்டு வருகிறது. இந்த நீட்டிப்பால் அமைக்கப்பட்ட பின்னணி வீதத்தை மாற்ற வேண்டாம்."
+   },
+   "rangeSlidersAttributes": {
+      "message": "வீச்செல்லை சருக்கிகளின் பண்புக்கூறுகள்"
+   },
+   "rangeSlidersAttributesNote": {
+      "message": "உலாவிகள் ஒரு குறிப்பிட்ட வரம்பைவிடப் பின்னணி விகிதங்களை ஆதரிக்காது என்பதை அறிந்து கொள்ளுங்கள்.\nஎழுதும் நேரத்தில் இது மாழையியல் (குரோம், எட்ச்) மற்றும் 8 (இயல்புநிலையாக) கெக்கோ (தீநரி) க்கு 16 ஆகும்."
+   },
+   "refreshIfMuted": {
+      "message": "ஊடகங்கள் முடக்கப்பட்டால் பக்கத்தைப் புதுப்பி"
+   },
+   "relativeToSounded": {
+      "message": "ஒலி வேகத்துடன் தொடர்புடையது"
+   },
+   "removeBinding": {
+      "message": "பிணைப்பை அகற்று"
+   },
+   "resetToDefaults": {
+      "message": "இயல்புநிலைகளுக்கு மீட்டமை"
+   },
+   "retry": {
+      "message": "மறுமுயற்சி"
+   },
+   "rewind": {
+      "message": "பின்னாடி (நாடிகள்)"
+   },
+   "runSnowflakeBridge": {
+      "message": "(மற்றொரு) நீட்டிப்பை நிறுவுவதன் மூலம் தணிக்கை செய்ய மற்றவர்களுக்கு உதவு"
+   },
+   "saved": {
+      "message": "சேமிக்கப்பட்டது"
+   },
+   "saving": {
+      "message": "சேமிப்பு…"
+   },
+   "setSettingValue": {
+      "message": "அமை"
+   },
+   "showErrors": {
+      "message": "பிழைகளைக் காட்டு"
+   },
+   "silenceSkippingWontWork": {
+      "message": "அமைதியைத் தவிர்ப்பது சரியாக வேலை செய்யாது"
+   },
+   "silenceSpeed": {
+      "message": "அமைதி விரைவு"
+   },
+   "silenceSpeedSpecificationMethod": {
+      "message": "அமைதி வேக விவரக்குறிப்பு முறை"
+   },
+   "silenceSpeedTooltip": {
+      "message": "அமைதியான பகுதிகளை நாங்கள் விளையாடும் வேகம்.\nவிளக்கப்படத்தில், இந்த வேகத்தில் விளையாடிய பகுதிகள் சிவப்பு 🟥 பின்னணியைக் கொண்டுள்ளன.$relativeNote$\n⚠️ இந்த மதிப்பு மிக அதிகமாக இருந்தால் (> ~ 4) வாக்கியங்களின் தொடக்கமும் தவிர்க்கத் தொடங்கலாம் (இது \"விளிம்பு முன்\" சிறியது போன்றது).",
+      "placeholders": {
+         "relativeNote": {
+            "content": "$1"
+         }
+      }
+   },
+   "silenceSpeedTooltipRelativeNote": {
+      "message": "\nஇது ஒலிக்கும் வேகத்தின் பெருக்கமாகக் குறிப்பிடப்பட்டுள்ளது என்பதை நினைவில் கொள்க, எனவே எ.கா. ஒலி விரைவு 1.5 ஆகவும், அமைதி விரைவு 2 ஆகவும் இருந்தால், இதன் விளைவாக முழுமையான மதிப்பு 3 ஆக இருக்கும். இந்த நடத்தையை விருப்பங்கள் பக்கத்தில் மாற்றலாம்."
+   },
+   "skipLess": {
+      "message": "குறைவாகத் தவிர்"
+   },
+   "skipMore": {
+      "message": "அதிகமாகத் தவிர்"
+   },
+   "soundedSpeed": {
+      "message": "வழக்கமான விரைவு"
+   },
+   "soundedSpeedTooltip": {
+      "message": "காணொளி தற்போது அமைதியாக இல்லாதபோது நாங்கள் விளையாடும் விரைவு, \"சாதாரண\" வேகம்.\nவிளக்கப்படத்தில், இந்த வேகத்தில் விளையாடிய பகுதிகள் பச்சை -பின்னணியைக் கொண்டுள்ளன."
+   },
+   "step": {
+      "message": "படி"
+   },
+   "suggestOpenLocalFile": {
+      "message": "**$openLocalFile$** வேண்டுமா?",
+      "placeholders": {
+         "openLocalFile": {
+            "content": "$1"
+         }
+      }
+   },
+   "switch": {
+      "message": "ஆளி"
+   },
+   "timeSaved": {
+      "message": "சேமித்த நேரம் செய்தி"
+   },
+   "timeSavedAveragingMethod": {
+      "message": "சராசரி முறை"
+   },
+   "timeSavedAveragingMethodAllTime": {
+      "message": "எல்லா நேர சராசரி (சிதைவு இல்லை)"
+   },
+   "timeSavedAveragingMethodExponential": {
+      "message": "அண்மைக் கால தரவை மட்டுமே கணக்கில் எடுத்துக் கொள்ளுங்கள் (அதிவேக சிதைவு)"
+   },
+   "timeSavedAveragingWindowLength": {
+      "message": "மீட்பொலித்தலின் கடைசி ஐ நொடிகளை மட்டுமே கணக்கில் எடுத்துக்கொள்ளுங்கள்"
+   },
+   "timeSavedComparedToIntrinsic": {
+      "message": "சாதாரண (உள்ளார்ந்த) வேகத்துடன் ஒப்பிடும்போது காணொளி எவ்வளவு வேகமாகத் திறம்பட இயங்குகிறது"
+   },
+   "timeSavedComparedToIntrinsicAbs": {
+      "message": "இயல்பான (உள்ளார்ந்த) வேகத்தில் காணொளியை விளையாடுவதோடு ஒப்பிடும்போது நேரம் சேமிக்கப்பட்டது"
+   },
+   "timeSavedComparedToSounded": {
+      "message": "ஒலி வேகத்துடன் ஒப்பிடும்போது காணொளி எவ்வளவு வேகமாக விளையாடுகிறது"
+   },
+   "timeSavedComparedToSoundedAbs": {
+      "message": "காணொளியை ஒலித்த வேகத்தில் விளையாடுவதோடு ஒப்பிடும்போது நேரம் சேமிக்கப்பட்டது"
+   },
+   "timeSavedDataWeightDecayTimeConstant": {
+      "message": "இதன் விளைவாகத் தரவு எடை அரை ஆயுள்: $length$ நொடிகள்",
+      "placeholders": {
+         "length": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeSavedExponentialAveragingLatestDataWeight": {
+      "message": "அண்மைக் கால பின்னணி காலம் சராசரி எடை"
+   },
+   "timeSavedPercentage": {
+      "message": "சேமிக்கப்பட்ட நேர சதவீதம்"
+   },
+   "toggleExtension": {
+      "message": "நீட்டிப்பை மாற்று"
+   },
+   "toggleMute": {
+      "message": "ஒலிமுடக்கு/ஒலிஇயக்கு"
+   },
+   "togglePause": {
+      "message": "இடைநிறுத்து/நிறுத்தாதே"
+   },
+   "toggleSettingValue": {
+      "message": "ஊசலாடு"
+   },
+   "tryAttachAnyway": {
+      "message": "எப்படியும் இணைக்க முயற்சி செய்"
+   },
+   "tryOpeningDirectly": {
+      "message": "அதை நேரடியாகத் திறக்க முயற்சி"
+   },
+   "updateSoundedSpeedWheneverItChangesOnWebsite": {
+      "message": "வலைத்தளத்தின் இடைமுகம் மூலமாகவோ அல்லது பிற நீட்டிப்புகள் மூலமாகவோ மீட்பொலித்தல் வீதத்தை (ஒலி வேகத்தை) கட்டுப்படுத்த விரும்புகிறேன், இது மட்டுமல்ல. மீட்பொலித்தல் விகிதம் மாறும்போதெல்லாம் இது ஒலி வேகத்தைப் புதுப்பிக்கும்."
+   },
+   "uploadToSync": {
+      "message": "சேமிப்பகத்தை ஒத்திசைக்க அமைப்புகளைப் பதிவேற்று"
+   },
+   "useExperimentalAlgorithm": {
+      "message": "சோதனை வழிமுறையைப் பயன்படுத்து"
+   },
+   "useExperimentalAlgorithmTooltip": {
+      "message": "➕ 🆕 இப்போது பெரும்பாலான வலைத்தளங்களில் வேலை செய்கிறது!\n➕ அமைதியான பகுதிகளை வேகமான விகிதத்தில் விளையாடுவதற்குப் பதிலாக அவற்றை முழுவதுமாகத் தவிர்க்க அனுமதிக்கிறது.\n➕ ஒலி விலகல் அல்லது நேரந்தவறுகை இல்லை.\n➕ சில வலைத்தளங்களில் மீட்பொலித்தல் தொடர்பான செயல்பாட்டை உடைக்கலாம்.\n➖ விளக்கப்படம் அமைதியான பகுதிகளில் உண்மையான அளவைக் காட்டாது (இது அதற்குப் பதிலாக 0 ஐக் காண்பிக்கும்)."
+   },
+   "useSeparateMarginSettingsForDifferentAlgorithms": {
+      "message": "வெவ்வேறு வழிமுறைகளுக்குத் தனித்தனி அமைதித் தவிர்ப்பது அமைப்புகளைப் பயன்படுத்தவும் (\"$useExperimentalAlgorithmLabel$\" அமைப்போடு தொடர்புடையது)",
+      "placeholders": {
+         "marginAfterLabel": {
+            "content": "$2"
+         },
+         "marginBeforeLabel": {
+            "content": "$1"
+         },
+         "useExperimentalAlgorithmLabel": {
+            "content": "$3"
+         }
+      }
+   },
+   "value": {
+      "message": "மதிப்பு"
+   },
+   "video": {
+      "message": "காணொளி"
+   },
+   "volume": {
+      "message": "ஒலிஅளவு\nஇது பொருளின் தற்போதைய ஒலி அல்ல, ஆனால் அதன் பெருக்க பெருக்கி, தொலைக்காட்சியில் உள்ளது போல"
+   },
+   "volumeThreshold": {
+      "message": "மிகக் குறைந்த பேச்சு ஒலி"
+   },
+   "volumeThresholdTooltip": {
+      "message": "தற்போதைய ஒலி அளவு இந்த மதிப்புக்குக் கீழே இருக்கும்போது, வேகத்தை அதிகரி.\nவிளக்கப்படத்தில், இது சிவப்பு 🟥 கிடைமட்ட கோடு. நீல 🟦 வரி தற்போதைய அளவு, எனவே நீலக்கோடு சிவப்பு நிறத்திற்கு கீழே இருக்கும்போது, அது அமைதியாகக் கருதப்படுகிறது."
+   },
+   "wheneverPlaybackRateChangesFromOtherScripts": {
+      "message": "பிற கைஉரைகளால் பின்னணி விகிதம் மாற்றப்படும் போதெல்லாம்"
+   },
+   "wouldHaveLastedIfSpeedWasIntrinsic": {
+      "message": "அமைதியைத் தவிர்க்காமல் சாதாரண (உள்ளார்ந்த) வேகத்தில் மீட்பொலித்தல் எவ்வளவு நேரம் எடுக்கும்"
+   },
+   "wouldHaveLastedIfSpeedWasSounded": {
+      "message": "அமைதியைத் தவிர்க்காமல் மீட்பொலித்தல் எவ்வளவு நேரம் எடுக்கும்"
+   }
+}

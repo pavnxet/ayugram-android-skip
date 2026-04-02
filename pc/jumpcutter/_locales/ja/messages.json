@@ -1,0 +1,470 @@
+{
+   "about": {
+      "message": "拡張機能について"
+   },
+   "absolute": {
+      "message": "固定速度"
+   },
+   "absoluteSilenceSpeedClarification": {
+      "message": " （通常の速度に対して相対的）"
+   },
+   "action": {
+      "message": "操作"
+   },
+   "addBinding": {
+      "message": "ホットキーを追加する"
+   },
+   "advance": {
+      "message": "進む（秒）"
+   },
+   "alsoSearchFor": {
+      "message": "$type$ の要素も探す",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "alwaysShowOpenLocalFileLink": {
+      "message": "\"$openLocalFileLabel$\"のリンクを表示",
+      "placeholders": {
+         "openLocalFileLabel": {
+            "content": "$1"
+         }
+      }
+   },
+   "applyTo": {
+      "message": "適用範囲"
+   },
+   "applyToBoth": {
+      "message": "動画と音声"
+   },
+   "applyToOnly": {
+      "message": "$type$要素のみ",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "audio": {
+      "message": "音声"
+   },
+   "autofocusEnabledInput": {
+      "message": "ポップアップを表示すると\"$enableCheckboxLabel$\"に自動フォーカスする",
+      "placeholders": {
+         "enableCheckboxLabel": {
+            "content": "$1"
+         }
+      }
+   },
+   "badgeWhatSettingToDisplayByDefault": {
+      "message": "デフォルトで表示する値"
+   },
+   "changeElementSearchCriteria": {
+      "message": "適用範囲を変更する…"
+   },
+   "chart": {
+      "message": "チャート"
+   },
+   "chartHeightPx": {
+      "message": "高さ（pixel）"
+   },
+   "chartJumpPeriod": {
+      "message": "ジャンプの間隔、%。チャートの長さの割合で表されます。0に設定するとスムーズに動作します（ジャンプ無し）。"
+   },
+   "chartLengthInSeconds": {
+      "message": "1秒の長さ"
+   },
+   "chartSpeed": {
+      "message": "動作速度"
+   },
+   "chartSpeedIntrinsicTime": {
+      "message": "現在の動画再生速度と同じ"
+   },
+   "chartSpeedRealTime": {
+      "message": "一定（実時間）"
+   },
+   "chartSpeedSoundedSpeedTime": {
+      "message": "通常時速度と比較して現在の再生速度と同じ"
+   },
+   "chartWidthPx": {
+      "message": "幅（pixel）"
+   },
+   "chat": {
+      "message": "話す"
+   },
+   "comparedToIntrinsic": {
+      "message": "等速の通常速度と比較"
+   },
+   "comparedToIntrinsicWithoutSkipping": {
+      "message": "等速の再生速度での再生と比較して節約した時間"
+   },
+   "comparedToSounded": {
+      "message": "通常時速度と比較"
+   },
+   "comparedToSoundedWithoutSkipping": {
+      "message": "通常時速度での再生と比較して節約した時間",
+      "placeholders": {
+         "speed": {
+            "content": "$1"
+         }
+      }
+   },
+   "contact": {
+      "message": "コンタクト"
+   },
+   "contentScriptFail": {
+      "message": "このページでコンテンツスクリプトを実行できませんでした"
+   },
+   "couldGetMuted": {
+      "message": "適用するとミュートになる恐れがあります"
+   },
+   "decreaseSettingValue": {
+      "message": "下降"
+   },
+   "decreaseVolume": {
+      "message": "音量を下げる（%）"
+   },
+   "disableHotkeysWhileInputFocused": {
+      "message": "ポップアップフォーカス時はホットキーを無効にする"
+   },
+   "doNothingWheneverPlaybackRateChanges": {
+      "message": "上記以外で、他のスクリプトからの再生速度変更を無視します。"
+   },
+   "donate": {
+      "message": "寄付"
+   },
+   "downloadFromSync": {
+      "message": "同期ストレージから設定を適用する"
+   },
+   "edit": {
+      "message": "編集"
+   },
+   "enable": {
+      "message": "有効化"
+   },
+   "enableHotkeys": {
+      "message": "ホットキーを有効"
+   },
+   "estimatedRemainingDuration": {
+      "message": "推定された残りの実再生時間:"
+   },
+   "extensionDescription": {
+      "message": "文と文の間をスキップすることで2倍速く動画を視聴できます"
+   },
+   "fileInputLabel": {
+      "message": "ファイルをドラッグ\nまたは選択"
+   },
+   "general": {
+      "message": "一般"
+   },
+   "hasErrors": {
+      "message": "エラーが発生しました"
+   },
+   "helpTranslate": {
+      "message": "翻訳"
+   },
+   "hotkey": {
+      "message": "ホットキー"
+   },
+   "hotkeys": {
+      "message": "ホットキー"
+   },
+   "hotkeysNotes": {
+      "message": "修飾キー（Ctrl, Shit等）に対応。\n複数のアクションを一つのキーに設定できます。これを利用してプロフィールを作成できます。\n\"$switch$\"と\"=\" （ \"set\"）の違いは\"$switch$\"は速度を前の値と切り替え、\"set\"は固定された速度に切り替えます。\nホットキーは拡張機能のポップアップ表示時にも有効です。",
+      "placeholders": {
+         "switch": {
+            "content": "$1"
+         }
+      }
+   },
+   "iconBadge": {
+      "message": "拡張機能のアイコンバッヂ"
+   },
+   "increaseSettingValue": {
+      "message": "上昇"
+   },
+   "increaseVolume": {
+      "message": "音量を上げる（%）"
+   },
+   "input": {
+      "message": "入力"
+   },
+   "license": {
+      "message": "ライセンス"
+   },
+   "loading": {
+      "message": "読込中"
+   },
+   "marginAfter": {
+      "message": "通常速度が終わるまでの余白"
+   },
+   "marginAfterTooltip": {
+      "message": "\"通常速度が始まるまでの余白\"に似ています。音量が小さくなった時、スキップ時の速度になるまでの秒数です(スキップ時速度への切り替え)。\nこれは主に音声の最後に休止を入れて、次の文と音声が混ざらないようにするものです。\n\"通常速度が始まるまでの余白\"とは違い音声の歪みや遅延は発生しません (これらの設定に互換性があるわけではありません)。"
+   },
+   "marginBefore": {
+      "message": "通常速度が始まるまでの余白"
+   },
+   "marginBeforeTooltip": {
+      "message": "動画を無音でスキップ最中に音量が大きくなる時、速度を戻すまでの有余の秒数です(通常時速度へ切り替えを指す)。\nこれは主に喋りだしを聞きやすくするものです。\n\n⚠️ ゼロ以外の値を設定すると、通常速度に切り替えるときにオーディオに歪みが発生し、この設定値に相当する一定のオーディオ遅延が追加されることに注意してください。これは\"実験的なアルゴリズム\"を使用する場合には適用されません。"
+   },
+   "max": {
+      "message": "最大"
+   },
+   "mediaUnsupported": {
+      "message": "このメディアは**おそらく** 対応していません — $consequences$.",
+      "placeholders": {
+         "consequences": {
+            "content": "$1"
+         }
+      }
+   },
+   "meta": {
+      "message": "メタ設定"
+   },
+   "min": {
+      "message": "最小"
+   },
+   "more": {
+      "message": "詳細設定"
+   },
+   "noSuitableElement": {
+      "message": "このページで適用するメディアが見つかりません"
+   },
+   "none": {
+      "message": "無し"
+   },
+   "numbersMeanings": {
+      "message": "数字の説明(左順):"
+   },
+   "omitMutedElements": {
+      "message": "無音のメディアには適用しない"
+   },
+   "openLocalFile": {
+      "message": "ローカルファイルを開く"
+   },
+   "openPopup": {
+      "message": "ポップアップを開く"
+   },
+   "or": {
+      "message": "または"
+   },
+   "overTheLast": {
+      "message": "過去$duration$間",
+      "placeholders": {
+         "duration": {
+            "content": "$1"
+         }
+      }
+   },
+   "overrideWebsiteHotkeys": {
+      "message": "サイト固有のホットキーを上書きする"
+   },
+   "popup": {
+      "message": "ポップアップ"
+   },
+   "popupAdvancedMode": {
+      "message": "高度な設定"
+   },
+   "popupSpecificHotkeys": {
+      "message": "ポップアップ固有のホットキー"
+   },
+   "preventOtherScriptsFromChangingPlaybackRate": {
+      "message": "そのウェブサイトで再生速度が意図せず変わった場合、この拡張機能の再生速度のみを適用します。"
+   },
+   "rangeSlidersAttributes": {
+      "message": "スライダーの動作"
+   },
+   "rangeSlidersAttributesNote": {
+      "message": "ブラウザによって再生速度上限があることに注意してください。\n執筆時点では、Chromium（Chrome、Edge）の場合は16、Gecko （Firefox）の場合は 8 （デフォルト）です。"
+   },
+   "refreshIfMuted": {
+      "message": "音声が流れない場合はページを更新してください"
+   },
+   "relativeToSounded": {
+      "message": "スキップ時の速度と相対する"
+   },
+   "removeBinding": {
+      "message": "ホットキーを削除"
+   },
+   "resetToDefaults": {
+      "message": "設定をデフォルトに戻す"
+   },
+   "retry": {
+      "message": "再実行"
+   },
+   "rewind": {
+      "message": "巻き戻す（秒）"
+   },
+   "runSnowflakeBridge": {
+      "message": "検閲を受けた人を拡張機能をインストールするだけで助ける"
+   },
+   "saved": {
+      "message": "保存されました"
+   },
+   "saving": {
+      "message": "保存中…"
+   },
+   "setSettingValue": {
+      "message": "設定"
+   },
+   "showErrors": {
+      "message": "エラーを表示"
+   },
+   "silenceSkippingWontWork": {
+      "message": "スキップが正しく動作しない恐れがあります"
+   },
+   "silenceSpeed": {
+      "message": "スキップ時の速度"
+   },
+   "silenceSpeedSpecificationMethod": {
+      "message": "スキップ速度の適用方法"
+   },
+   "silenceSpeedTooltip": {
+      "message": "スキップ時の速度です。\n図ではスキップされた再生時部分が🟥赤い背景で表示されます。$relativeNote$\n⚠️この値が高すぎると(~4以上)文の始めがスキップされることがあります(\"通常速度が始まるまでの余白\"が小さい時の様な挙動)。",
+      "placeholders": {
+         "relativeNote": {
+            "content": "$1"
+         }
+      }
+   },
+   "silenceSpeedTooltipRelativeNote": {
+      "message": "\n通常時の速度に比例した速度になる点に注意してください。例えば通常速度が1.5倍、スキップ時速度が2の場合、スキップ時の実際の速度は3倍速になります。これは設定で変更可能です。"
+   },
+   "skipLess": {
+      "message": "スキップを減少"
+   },
+   "skipMore": {
+      "message": "スキップを増加"
+   },
+   "soundedSpeed": {
+      "message": "通常再生の速度"
+   },
+   "soundedSpeedTooltip": {
+      "message": "動画がスキップされない通常の速度です。\nチャートでは通常速度で再生時部分が緑色の🟩背景で表示されます。"
+   },
+   "step": {
+      "message": "ステップ"
+   },
+   "suggestOpenLocalFile": {
+      "message": "**ローカルファイル**を開きますか？",
+      "placeholders": {
+         "openLocalFile": {
+            "content": "$1"
+         }
+      }
+   },
+   "switch": {
+      "message": "切り替え"
+   },
+   "timeSaved": {
+      "message": "節約した時間の情報"
+   },
+   "timeSavedAveragingMethod": {
+      "message": "平均の計算方法"
+   },
+   "timeSavedAveragingMethodAllTime": {
+      "message": "全期間の平均（減衰なし）"
+   },
+   "timeSavedAveragingMethodExponential": {
+      "message": "最新のデータのみを参照（指数的に減衰）"
+   },
+   "timeSavedAveragingWindowLength": {
+      "message": "次の再生の最後の秒数のみを考慮する"
+   },
+   "timeSavedComparedToIntrinsic": {
+      "message": "等速の通常速度と比較してどれだけ速く効率的にビデオが再生されたかの平均"
+   },
+   "timeSavedComparedToIntrinsicAbs": {
+      "message": "等速の再生速度での再生と比較して節約した時間"
+   },
+   "timeSavedComparedToSounded": {
+      "message": "通常時速度と比較してどれだけ速く効率的にビデオが再生されたかの平均"
+   },
+   "timeSavedComparedToSoundedAbs": {
+      "message": "通常時速度での再生と比較して節約した時間"
+   },
+   "timeSavedDataWeightDecayTimeConstant": {
+      "message": "データ重量の半減期:$length$秒",
+      "placeholders": {
+         "length": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeSavedExponentialAveragingLatestDataWeight": {
+      "message": "最新の再生期間の平均に対しての重み"
+   },
+   "timeSavedPercentage": {
+      "message": "時間節約率"
+   },
+   "toggleExtension": {
+      "message": "拡張機能の切り替え"
+   },
+   "toggleMute": {
+      "message": "ミュート/ミュート解除"
+   },
+   "togglePause": {
+      "message": "停止/再生"
+   },
+   "toggleSettingValue": {
+      "message": "切り替え"
+   },
+   "tryAttachAnyway": {
+      "message": "強制的に実行する"
+   },
+   "tryOpeningDirectly": {
+      "message": "動画を直接開く"
+   },
+   "updateSoundedSpeedWheneverItChangesOnWebsite": {
+      "message": "通常時速度をそのウェブサイトまたは別の拡張機能に委ね、動画の再生速度が変わるたびに通常時速度を更新します。"
+   },
+   "uploadToSync": {
+      "message": "同期ストレージに設定をアップロードする"
+   },
+   "useExperimentalAlgorithm": {
+      "message": "実験的なアルゴリズムを使用"
+   },
+   "useExperimentalAlgorithmTooltip": {
+      "message": "➕ 🆕 多くのウェブサイトに対応！\n➕スキップ部分を高速で再生する代わりに、完全にスキップできます。\n➕音声の歪みや遅延はありません。\n➖ 一部のサイトでは再生関連の機能が動作しなくなることがあります。\n➖図はスキップされた部分の実際の音量を表示しません（代わりに0を表示）。"
+   },
+   "useSeparateMarginSettingsForDifferentAlgorithms": {
+      "message": "異なるアルゴリズムごとに別の速度設定を用いる（\"$useExperimentalAlgorithmLabel$\"と関連）",
+      "placeholders": {
+         "marginAfterLabel": {
+            "content": "$2"
+         },
+         "marginBeforeLabel": {
+            "content": "$1"
+         },
+         "useExperimentalAlgorithmLabel": {
+            "content": "$3"
+         }
+      }
+   },
+   "value": {
+      "message": "値"
+   },
+   "video": {
+      "message": "動画"
+   },
+   "volume": {
+      "message": "音量\n音量の大きさを表してるのではなく、テレビのような音響の増幅です"
+   },
+   "volumeThreshold": {
+      "message": "スキップされる音量の下限"
+   },
+   "volumeThresholdTooltip": {
+      "message": "流れている音量がこの値を下回ると倍速します。\n図では🟥赤い線として表されます。🟦青い線が現在の音量で、この青い線が赤い線を下回る時にスキップするようになります。"
+   },
+   "wheneverPlaybackRateChangesFromOtherScripts": {
+      "message": "他のスクリプトに再生速度を変更された時"
+   },
+   "wouldHaveLastedIfSpeedWasIntrinsic": {
+      "message": "スキップを用いず等速の再生読度だけで再生した時にかかる時間"
+   },
+   "wouldHaveLastedIfSpeedWasSounded": {
+      "message": "スキップを用いず通常時速度だけで再生した時にかかる時間"
+   }
+}

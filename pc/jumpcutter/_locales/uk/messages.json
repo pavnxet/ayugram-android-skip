@@ -1,0 +1,473 @@
+{
+   "about": {
+      "message": "Про нас"
+   },
+   "absolute": {
+      "message": "абсолютна"
+   },
+   "absoluteSilenceSpeedClarification": {
+      "message": " (тобто відносно швидкості медіа в 1 раз (звичайної, внутрішньої))"
+   },
+   "action": {
+      "message": "Дія"
+   },
+   "addBinding": {
+      "message": "Додати нову гарячу клавішу"
+   },
+   "advance": {
+      "message": "Просування (секунди)"
+   },
+   "alsoSearchFor": {
+      "message": "Також шукати $type$ елементи",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "alwaysShowOpenLocalFileLink": {
+      "message": "Показати посилання \"$openLocalFileLabel$\"",
+      "placeholders": {
+         "openLocalFileLabel": {
+            "content": "$1"
+         }
+      }
+   },
+   "applyTo": {
+      "message": "Застосувати до"
+   },
+   "applyToBoth": {
+      "message": "Як відео, так і аудіоелементи"
+   },
+   "applyToOnly": {
+      "message": "лише елементи $type$",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "audio": {
+      "message": "аудіо"
+   },
+   "autofocusEnabledInput": {
+      "message": "Автоматично фокусувати прапорець \"$enableCheckboxLabel$\", коли відкривається спливаюче вікно",
+      "placeholders": {
+         "enableCheckboxLabel": {
+            "content": "$1"
+         }
+      }
+   },
+   "badgeWhatSettingToDisplayByDefault": {
+      "message": "Яке значення налаштування відображати за замовчуванням"
+   },
+   "changeElementSearchCriteria": {
+      "message": "Змінити критерії пошуку…"
+   },
+   "chart": {
+      "message": "Діаграма"
+   },
+   "chartHeightPx": {
+      "message": "Висота (пікселі)"
+   },
+   "chartJumpPeriod": {
+      "message": "Період переходу, %. Виражається як частка довжини діаграми. Встановіть значення 0 для плавного руху (без переходів)."
+   },
+   "chartLengthInSeconds": {
+      "message": "Тривалість у секундах"
+   },
+   "chartSpeed": {
+      "message": "Швидкість руху"
+   },
+   "chartSpeedIntrinsicTime": {
+      "message": "Така ж, як і поточна швидкість відео"
+   },
+   "chartSpeedRealTime": {
+      "message": "Постійний (у режимі реального часу)"
+   },
+   "chartSpeedSoundedSpeedTime": {
+      "message": "Така ж, як і поточна швидкість відео, відносно швидкості звуку"
+   },
+   "chartWidthPx": {
+      "message": "Ширина (пікселі)"
+   },
+   "chat": {
+      "message": "Чат"
+   },
+   "comparedToIntrinsic": {
+      "message": "відносно \"вродженої\""
+   },
+   "comparedToIntrinsicWithoutSkipping": {
+      "message": "Порівняно з простим відтворенням відео зі швидкістю 1x (звичайна, власна) без промотування тиші"
+   },
+   "comparedToSounded": {
+      "message": "відносно швидкості на гучних частинах"
+   },
+   "comparedToSoundedWithoutSkipping": {
+      "message": "Щодо просто програвання на \"швидкості на гучних частинах\" ($speed$) без промотування тиші",
+      "placeholders": {
+         "speed": {
+            "content": "$1"
+         }
+      }
+   },
+   "contact": {
+      "message": "Контакти"
+   },
+   "contentScriptFail": {
+      "message": "Неможливо запустити контент-скрипт на даній сторінці"
+   },
+   "couldGetMuted": {
+      "message": "при спробі причепитися може зникнути його звук"
+   },
+   "decreaseSettingValue": {
+      "message": "Зменшення"
+   },
+   "decreaseVolume": {
+      "message": "Зменшити гучність (%)"
+   },
+   "disableHotkeysWhileInputFocused": {
+      "message": "Вимкнути гарячі клавіші, коли поле введення активне"
+   },
+   "doNothingWheneverPlaybackRateChanges": {
+      "message": "Жоден з перерахованих вище варіантів. Просто ігноруйте зміни швидкості відтворення від інших скриптів."
+   },
+   "donate": {
+      "message": "Пожертвувати"
+   },
+   "downloadFromSync": {
+      "message": "Застосувати налаштування зі сховища синхронізації"
+   },
+   "edit": {
+      "message": "Редагувати"
+   },
+   "enable": {
+      "message": "Увімкнути"
+   },
+   "enableHotkeys": {
+      "message": "Увімкнути гарячі клавіші"
+   },
+   "estimatedRemainingDuration": {
+      "message": "Орієнтовна тривалість у реальному часі, що залишилася:"
+   },
+   "extensionDescription": {
+      "message": "Пропускає паузу у відео: дивіться їх до 2 разів швидше"
+   },
+   "fileInputLabel": {
+      "message": "Перетягніть один або кілька файлів,\nабо натисніть, щоб вибрати"
+   },
+   "general": {
+      "message": "Загальне"
+   },
+   "hasErrors": {
+      "message": "Знайдено помилки"
+   },
+   "helpTranslate": {
+      "message": "Допомогти з перекладом"
+   },
+   "hotkey": {
+      "message": "Гаряча клавіша"
+   },
+   "hotkeys": {
+      "message": "Гарячі клавіші"
+   },
+   "hotkeysNotes": {
+      "message": "Підтримуються клавіші-модифікатори (Ctrl, Shift тощо).\nКілька дій можна прив’язати до однієї клавіші. Це можна використовувати для створення «профілів».\nРізниця між діями «$switch$» та «=\" (також відомим як «set») полягає в тому, що «$switch$» перемикає значення між попереднім значенням та аргументом гарячої клавіші, тоді як «set» завжди встановлює значення аргументу.\nГарячі клавіші також активні, коли відкрито спливаюче вікно.",
+      "placeholders": {
+         "switch": {
+            "content": "$1"
+         }
+      }
+   },
+   "iconBadge": {
+      "message": "Значок розширення"
+   },
+   "increaseSettingValue": {
+      "message": "Збільшення"
+   },
+   "increaseVolume": {
+      "message": "Збільшити гучність (%)"
+   },
+   "input": {
+      "message": "Поле введення"
+   },
+   "license": {
+      "message": "Ліцензія"
+   },
+   "loading": {
+      "message": "Завантаження"
+   },
+   "marginAfter": {
+      "message": "Зазор після"
+   },
+   "marginAfterTooltip": {
+      "message": "При переході з гучної частини відео на тиху, скільки секунд чекати, перед тим як прискорити відео (переключитись на \"швидкість на тихих\").\nСтане в нагоді, якщо потрібно, щоб останні літери речень не промотувалися, і щоб зберегти невеликі паузи між пропозиціями.\nНа відміну від \"Зазор перед\", це налаштування не викликає ні спотворення, ні затримки звуку (але і не сказати, що ці два налаштування еквівалентні)."
+   },
+   "marginBefore": {
+      "message": "Зазор перед"
+   },
+   "marginBeforeTooltip": {
+      "message": "При переході з тихої частини відео на гучний, з яким попередженням (у секундах) потрібно уповільнити відео (переключитися на швидкість на гучних).\nСтане в нагоді, якщо потрібно, щоб перші літери речень не промотувалися.\n\n⚠️ Ненульове значення викликає побічні ефекти: Спотворення звуку при переході з тихої частини на гучний І постійна затримка звуку, що дорівнює значенню цієї настройки. Ці побічні ефекти не виявляються при використанні \"експериментального алгоритму\"."
+   },
+   "max": {
+      "message": "Макс"
+   },
+   "mediaUnsupported": {
+      "message": "Цей елемент, **швидше за все**, не підтримується — $consequences$.",
+      "placeholders": {
+         "consequences": {
+            "content": "$1"
+         }
+      }
+   },
+   "meta": {
+      "message": "Мета"
+   },
+   "min": {
+      "message": "Хв"
+   },
+   "more": {
+      "message": "Більше"
+   },
+   "noSuitableElement": {
+      "message": "Не вдалося знайти відповідний медіаелемент на сторінці"
+   },
+   "none": {
+      "message": "Жоден"
+   },
+   "numbersMeanings": {
+      "message": "Що означають числа (по порядку):"
+   },
+   "omitMutedElements": {
+      "message": "Не застосовувати до вимкнених медіа-елементів"
+   },
+   "openLocalFile": {
+      "message": "відкрити локальний файл"
+   },
+   "openPopup": {
+      "message": "Відкрити спливаюче вікно"
+   },
+   "or": {
+      "message": "Або"
+   },
+   "overTheLast": {
+      "message": "За останні $duration$",
+      "placeholders": {
+         "duration": {
+            "content": "$1"
+         }
+      }
+   },
+   "overrideWebsiteHotkeys": {
+      "message": "Перевизначення гарячих клавіш веб-сайту"
+   },
+   "popup": {
+      "message": "Спливаюче вікно"
+   },
+   "popupAdvancedMode": {
+      "message": "Розширені налаштування"
+   },
+   "popupSpecificHotkeys": {
+      "message": "Гарячі клавіші, що працюють зі спливаючими вікнами"
+   },
+   "preventOtherScriptsFromChangingPlaybackRate": {
+      "message": "На деяких вебсайтах, які я відвідую, швидкість відтворення змінюється неочікуваним чином. Не дозволяйте їм змінювати швидкість відтворення, встановлену цим розширенням."
+   },
+   "rangeSlidersAttributes": {
+      "message": "Атрибути повзунків"
+   },
+   "rangeSlidersAttributesNote": {
+      "message": "Майте на увазі, що браузери не підтримують швидкість відтворення вище певного ліміту.\nНа момент написання статті це 16 для Chromium (Chrome, Edge) та 8 (за замовчуванням) для Gecko (Firefox)."
+   },
+   "refreshIfMuted": {
+      "message": "Якщо звук зник, перезавантажте сторінку"
+   },
+   "relativeToSounded": {
+      "message": "відносно швидкості на гучних"
+   },
+   "removeBinding": {
+      "message": "Вилучити прив'язку"
+   },
+   "resetToDefaults": {
+      "message": "Скинути до налаштувань за замовчуванням"
+   },
+   "retry": {
+      "message": "Повторіть спробу"
+   },
+   "rewind": {
+      "message": "Перемотування назад (секунди)"
+   },
+   "runSnowflakeBridge": {
+      "message": "Допоможіть іншим обійти цензуру, просто встановивши (інше) розширення"
+   },
+   "saved": {
+      "message": "Збережено"
+   },
+   "saving": {
+      "message": "Збереження…"
+   },
+   "setSettingValue": {
+      "message": "Встановити"
+   },
+   "showErrors": {
+      "message": "Показати помилки"
+   },
+   "silenceSkippingWontWork": {
+      "message": "Промотування тиші не працюватиме"
+   },
+   "silenceSpeed": {
+      "message": "Швидкість на тихих частинах"
+   },
+   "silenceSpeedSpecificationMethod": {
+      "message": "Метод специфікації швидкості мовчання"
+   },
+   "silenceSpeedTooltip": {
+      "message": "Швидкість, з якою ми граємо беззвучні партії.\nНа графіку частини, які відтворювалися на цій швидкості, мають червоний 🟥 фон.$relativeNote$\n⚠️ Якщо це значення дуже високе (> ~4), початок речень також може почати пропускатися (це як «Маржа раніше» менше).",
+      "placeholders": {
+         "relativeNote": {
+            "content": "$1"
+         }
+      }
+   },
+   "silenceSpeedTooltipRelativeNote": {
+      "message": "\nВиражається як множник швидкості на гучних частинах. Тобто. Якщо швидкість на гучних = 1,5 і швидкість на тихих = 2, підсумкове абсолютне значення швидкості дорівнюватиме 3. Це можна змінити на сторінці опцій."
+   },
+   "skipLess": {
+      "message": "Пропускати менше"
+   },
+   "skipMore": {
+      "message": "Пропустити більше"
+   },
+   "soundedSpeed": {
+      "message": "Звичайна швидкість"
+   },
+   "soundedSpeedTooltip": {
+      "message": "Швидкість, з якою ми відтворюємо відео, коли воно НЕ беззвучне, «звичайна» швидкість.\nНа графіку частини, які відтворювалися з такою швидкістю, мають зелений фон 🟩."
+   },
+   "step": {
+      "message": "Крок"
+   },
+   "suggestOpenLocalFile": {
+      "message": "Хотите **$openLocalFile$**?",
+      "placeholders": {
+         "openLocalFile": {
+            "content": "$1"
+         }
+      }
+   },
+   "switch": {
+      "message": "перемикач"
+   },
+   "timeSaved": {
+      "message": "Інформація про заощаджений час"
+   },
+   "timeSavedAveragingMethod": {
+      "message": "Метод усереднення"
+   },
+   "timeSavedAveragingMethodAllTime": {
+      "message": "Середній показник за весь час (без спаду)"
+   },
+   "timeSavedAveragingMethodExponential": {
+      "message": "Враховуйте лише найновіші дані (експоненціальний спад)"
+   },
+   "timeSavedAveragingWindowLength": {
+      "message": "Враховувати лише останні N секунд відтворення"
+   },
+   "timeSavedComparedToIntrinsic": {
+      "message": "Наскільки швидше в середньому фактично відтворюється відео порівняно зі швидкістю 1x (звичайна, власна)"
+   },
+   "timeSavedComparedToIntrinsicAbs": {
+      "message": "Зекономлений час порівняно з простим відтворенням відео зі швидкістю 1x (звичайна, власна)"
+   },
+   "timeSavedComparedToSounded": {
+      "message": "У скільки разів швидше в середньому програється відео щодо швидкості на гучних частинах"
+   },
+   "timeSavedComparedToSoundedAbs": {
+      "message": "Заощаджено часу, щодо просто програвання на \"швидкості на гучних частинах\""
+   },
+   "timeSavedDataWeightDecayTimeConstant": {
+      "message": "Результуючий період напіврозпаду ваги даних: $length$ секунд",
+      "placeholders": {
+         "length": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeSavedExponentialAveragingLatestDataWeight": {
+      "message": "Вага усереднення за останній період відтворення"
+   },
+   "timeSavedPercentage": {
+      "message": "Часу заощаджено, у відсотках"
+   },
+   "timeSavedSinceInstallation": {
+      "message": "Загальний зекономлений час з моменту встановлення"
+   },
+   "toggleExtension": {
+      "message": "Перемкнути розширення"
+   },
+   "toggleMute": {
+      "message": "Вимкнути/увімкнути звук"
+   },
+   "togglePause": {
+      "message": "Пауза/відновлення паузи"
+   },
+   "toggleSettingValue": {
+      "message": "Перемкнути"
+   },
+   "tryAttachAnyway": {
+      "message": "Все одно спробувати причепитися"
+   },
+   "tryOpeningDirectly": {
+      "message": "Спробуйте відкрити його безпосередньо"
+   },
+   "updateSoundedSpeedWheneverItChangesOnWebsite": {
+      "message": "Я хочу контролювати швидкість відтворення (швидкість озвучування) через інтерфейс веб-сайту або через інші розширення, не лише це. Це оновлюватиме швидкість озвучування щоразу, коли швидкість відтворення змінюватиметься."
+   },
+   "uploadToSync": {
+      "message": "Завантажити налаштування до синхронізованого сховища"
+   },
+   "useExperimentalAlgorithm": {
+      "message": "Використати експериментальний алгоритм"
+   },
+   "useExperimentalAlgorithmTooltip": {
+      "message": "➕ 🆕 Тепер працює на більшості вебсайтів!\n➕ Дозволяє повністю пропускати німі частини, замість того, щоб відтворювати їх зі швидшою швидкістю.\n➕ Без спотворення чи затримки звуку.\n➖ Може порушувати роботу функцій, пов'язаних з відтворенням, на деяких вебсайтах.\n➖ Діаграма не відображатиме фактичну гучність німих частин (замість цього буде просто 0)."
+   },
+   "useSeparateMarginSettingsForDifferentAlgorithms": {
+      "message": "Використовуйте окремі налаштування пропуску тиші для різних алгоритмів (пов'язані з налаштуванням \"$useExperimentalAlgorithmLabel$\")",
+      "placeholders": {
+         "marginAfterLabel": {
+            "content": "$2"
+         },
+         "marginBeforeLabel": {
+            "content": "$1"
+         },
+         "useExperimentalAlgorithmLabel": {
+            "content": "$3"
+         }
+      }
+   },
+   "value": {
+      "message": "Значення"
+   },
+   "video": {
+      "message": "відео"
+   },
+   "volume": {
+      "message": "Гучність\nЦе не поточний рівень сигналу, а його посилення. Як на телевізорі"
+   },
+   "volumeThreshold": {
+      "message": "Найнижча гучність мовлення"
+   },
+   "volumeThresholdTooltip": {
+      "message": "Когда текущая громкость видео ниже этого значения, ускорить видео.\nНа графике это красная 🟥 горизонтальная линия. Синяя 🟦 линяя — это текущая громкость. Т.е. когда синяя линия находится ниже красной, это считается тишиной."
+   },
+   "wheneverPlaybackRateChangesFromOtherScripts": {
+      "message": "Щоразу, коли швидкість відтворення змінюється іншими скриптами"
+   },
+   "wouldHaveLastedIfSpeedWasIntrinsic": {
+      "message": "Скільки часу триватиме відтворення на швидкості 1x (звичайній, власній) БЕЗ пропуску тиші"
+   },
+   "wouldHaveLastedIfSpeedWasSounded": {
+      "message": "Скільки часу зайняло б програвання відео на \"швидкості на гучних частинах\" БЕЗ промотування тиші"
+   }
+}
