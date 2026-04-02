@@ -1,0 +1,49 @@
+name: Build AyuGram (Windows)
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build Telegram Client (x64)
+    runs-on: windows-2022 # Required: Visual Studio 2022
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive # Telegram submodules are strictly required
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # NOTE: Telegram Desktop requires a 50GB pre-compiled Libraries folder.
+      # For GitHub actions, the standard community approach is to download a pre-packaged TG Libraries file.
+      # Many forks host their own ZIP of these dependencies in a separate GitHub Release to avoid timeout/storage limits.
+      - name: Setup TDesktop Libraries
+        run: |
+          mkdir -p ../win64
+          # Replace this URL with a host of your `Libraries` zip (or AyuGram's official release assets)
+          # Invoke-WebRequest -Uri "https://github.com/YOUR_NAME/YOUR_REPO/releases/download/v1.0/win64_Libraries.zip" -OutFile "libs.zip"
+          # Expand-Archive libs.zip -DestinationPath ../win64
+          echo "Please ensure the Libraries folder is correctly populated at D:/a/Libraries (relative to repo)"
+
+      - name: Configure CMake
+        run: |
+          # Generates the default out directory with Visual Studio
+          python Telegram/configure.py x64
+          
+      - name: Build AyuGram
+        run: |
+          cmake --build out --config Debug --target Telegram
+        
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AyuGram-Jumpcutter-Client
+          path: out/Debug/Telegram.exe
+          if-no-files-found: error

@@ -1,0 +1,300 @@
+{
+   "about": {
+      "message": "Par"
+   },
+   "action": {
+      "message": "Darbība"
+   },
+   "addBinding": {
+      "message": "Pievienot jaunu īsinājumtaustiņu"
+   },
+   "advance": {
+      "message": "Patīt uz priekšu (sekundes)"
+   },
+   "alsoSearchFor": {
+      "message": "Meklēt arī $type$ elementus",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "alwaysShowOpenLocalFileLink": {
+      "message": "Rādīt \"$openLocalFileLabel$\" saiti",
+      "placeholders": {
+         "openLocalFileLabel": {
+            "content": "$1"
+         }
+      }
+   },
+   "applyTo": {
+      "message": "Pielietot"
+   },
+   "applyToBoth": {
+      "message": "abiem - gan video, gan audio elementiem"
+   },
+   "applyToOnly": {
+      "message": "tikai $type$ elementiem",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "audio": {
+      "message": "audio"
+   },
+   "changeElementSearchCriteria": {
+      "message": "Mainīt meklēšanas kritērijus…"
+   },
+   "chart": {
+      "message": "Grafiks"
+   },
+   "chartHeightPx": {
+      "message": "Augstums (pikseļi)"
+   },
+   "chartLengthInSeconds": {
+      "message": "Ilgums sekundēs"
+   },
+   "chartWidthPx": {
+      "message": "Platums (pikseļi)"
+   },
+   "comparedToIntrinsicWithoutSkipping": {
+      "message": "Ietaupītais laiks, salīdzinot ar video atskaņošanu 1x (normālā, iepriekšdefinētā) ātrumā"
+   },
+   "contact": {
+      "message": "Sazināties ar mums"
+   },
+   "contentScriptFail": {
+      "message": "Nevarēja palaist satura skriptu šajā lapā"
+   },
+   "decreaseSettingValue": {
+      "message": "Samazināt"
+   },
+   "decreaseVolume": {
+      "message": "Samazināt skaļumu (%)"
+   },
+   "doNothingWheneverPlaybackRateChanges": {
+      "message": "Nekas no iepriekš minētā. Vienkārši ignorēt, ja citi skripti maina atskaņošanas ātrumu."
+   },
+   "donate": {
+      "message": "Ziedot"
+   },
+   "edit": {
+      "message": "Rediģēt"
+   },
+   "enable": {
+      "message": "Iespējot"
+   },
+   "enableHotkeys": {
+      "message": "Iespējot īsinājumtaustiņus"
+   },
+   "estimatedRemainingDuration": {
+      "message": "Aprēķinātais atlikušais faktiskais atskaņošanas ilgums:"
+   },
+   "fileInputLabel": {
+      "message": "Velciet un nometiet vienu vai vairākas datnes šeit\nvai noklikšķiniet, lai atlasītu"
+   },
+   "general": {
+      "message": "Vispārīgie"
+   },
+   "hasErrors": {
+      "message": "Atrastas kļūdas"
+   },
+   "helpTranslate": {
+      "message": "Palīdziet iztulkot"
+   },
+   "hotkey": {
+      "message": "Īsinājumtaustiņš"
+   },
+   "hotkeys": {
+      "message": "Īsinājumtaustiņi"
+   },
+   "iconBadge": {
+      "message": "Paplašinājuma ikonas nozīmīte"
+   },
+   "increaseSettingValue": {
+      "message": "Palielināt"
+   },
+   "increaseVolume": {
+      "message": "Palielināt skaļumu (%)"
+   },
+   "license": {
+      "message": "Licence"
+   },
+   "loading": {
+      "message": "Ielādē"
+   },
+   "marginAfter": {
+      "message": "Pēc skaņas rezerve"
+   },
+   "marginBefore": {
+      "message": "Pirms skaņas rezerve"
+   },
+   "max": {
+      "message": "Maks."
+   },
+   "min": {
+      "message": "Minim."
+   },
+   "more": {
+      "message": "Vēl"
+   },
+   "noSuitableElement": {
+      "message": "Nevarēja atrast atbilstošu multivides elementu lapā"
+   },
+   "none": {
+      "message": "Nekādu"
+   },
+   "numbersMeanings": {
+      "message": "Skaitļu nozīme (secībā):"
+   },
+   "omitMutedElements": {
+      "message": "Nepielietot elementiem ar izslēgtu skaņu"
+   },
+   "openLocalFile": {
+      "message": "atvērt vietējo datni"
+   },
+   "or": {
+      "message": "Vai"
+   },
+   "overTheLast": {
+      "message": "Pēdējās $duration$",
+      "placeholders": {
+         "duration": {
+            "content": "$1"
+         }
+      }
+   },
+   "overrideWebsiteHotkeys": {
+      "message": "Ignorēt vietnes īsinājumtaustiņus"
+   },
+   "popupAdvancedMode": {
+      "message": "Papildu iestatījumi"
+   },
+   "popupSpecificHotkeys": {
+      "message": "Uznirstošie īpašie īsinājumtaustiņi"
+   },
+   "preventOtherScriptsFromChangingPlaybackRate": {
+      "message": "Dažās vietnēs atskaņošanas ātrums mainās negaidīti. Neļaut vietnēm mainīt šī paplašinājuma iestatīto atskaņošanas ātrumu."
+   },
+   "rangeSlidersAttributes": {
+      "message": "Diapazona slīdņu atribūti"
+   },
+   "rangeSlidersAttributesNote": {
+      "message": "Ņemiet vērā, ka pārlūki neatbalsta atskaņošanas ātrumu, kas pārsniedz noteiktu robežu.\nChromium (Chrome, Edge utt.) pārlūkiem tas ir 16 un Gecko (Firefox) pārlūkiem - 8 (pēc noklusējuma). Vai tagad šīs vērtības ir aktuālas? Iespējams. Kad pēdējo reizi pārbaudīju, tad bija tādas."
+   },
+   "refreshIfMuted": {
+      "message": "Ja pazūd skaņa, atkārtoti ielādējiet lapu"
+   },
+   "removeBinding": {
+      "message": "Noņemt īsinājumtaustiņu"
+   },
+   "resetToDefaults": {
+      "message": "Atiestatīt iestatījumus uz to noklusējuma vērtībām"
+   },
+   "retry": {
+      "message": "Mēģināt vēlreiz"
+   },
+   "rewind": {
+      "message": "Attīt atpakaļ (sekundes)"
+   },
+   "saved": {
+      "message": "Saglabāti"
+   },
+   "saving": {
+      "message": "Saglabā…"
+   },
+   "setSettingValue": {
+      "message": "Iestatīt"
+   },
+   "showErrors": {
+      "message": "Parādīt kļūdas"
+   },
+   "silenceSpeed": {
+      "message": "Atskaņošanas ātrums klusuma brīžos"
+   },
+   "silenceSpeedSpecificationMethod": {
+      "message": "Atskaņošanas ātruma aprēķināšanas metode klusuma brīžos"
+   },
+   "skipLess": {
+      "message": "Izlaist mazāk"
+   },
+   "skipMore": {
+      "message": "Izlaist vairāk"
+   },
+   "soundedSpeed": {
+      "message": "Normālais atskaņošanas ātrums"
+   },
+   "step": {
+      "message": "Solis"
+   },
+   "timeSaved": {
+      "message": "Ietaupītā laika informācija"
+   },
+   "timeSavedAveragingMethod": {
+      "message": "Vidējās vērtības aprēķināšanas metode"
+   },
+   "timeSavedAveragingWindowLength": {
+      "message": "Ņemt vērā tikai pēdējās N atskaņošanas sekundes"
+   },
+   "timeSavedComparedToIntrinsicAbs": {
+      "message": "Ietaupītais laiks, salīdzinot ar video atskaņošanu normālā (iepriekšdefinētā) ātrumā"
+   },
+   "timeSavedPercentage": {
+      "message": "Ietaupītais laiks procentos"
+   },
+   "toggleExtension": {
+      "message": "Ieslēgt vai izslēgt paplašinājumu"
+   },
+   "toggleMute": {
+      "message": "Izslēgt/ieslēgt skaņu"
+   },
+   "togglePause": {
+      "message": "Pauze/atskaņot"
+   },
+   "tryAttachAnyway": {
+      "message": "Tomēr mēģināt pievienot"
+   },
+   "tryOpeningDirectly": {
+      "message": "Mēģināt atvērt tieši"
+   },
+   "useExperimentalAlgorithm": {
+      "message": "Izmantot eksperimentālo algoritmu"
+   },
+   "useSeparateMarginSettingsForDifferentAlgorithms": {
+      "message": "Izmantot atšķirīgus klusuma brīža izlaišanas iestatījumus dažādiem algoritmiem (spēkā, ja izmanto \"$useExperimentalAlgorithmLabel$\")",
+      "placeholders": {
+         "marginAfterLabel": {
+            "content": "$2"
+         },
+         "marginBeforeLabel": {
+            "content": "$1"
+         },
+         "useExperimentalAlgorithmLabel": {
+            "content": "$3"
+         }
+      }
+   },
+   "value": {
+      "message": "Vērtība"
+   },
+   "video": {
+      "message": "video"
+   },
+   "volume": {
+      "message": "Skaļums\nTas nav pašreizējais skaļums, bet tā pastiprinājums, kā televizorā"
+   },
+   "volumeThreshold": {
+      "message": "Minimālais skaļuma slieksnis"
+   },
+   "volumeThresholdTooltip": {
+      "message": "Ja pašreizējais video skaļums ir zemāks, mazāks par šo vērtību, paātriniet video atskaņošanas ātrumu.\nGrafikā tā (skaļuma slieksnis) ir sarkanā 🟥 horizontālā līnija. Zilais 🟦 grafiks — pašreizējais video skaļums. Kad zilais grafiks ir zem sarkanās līnijas, to uzskata par klusuma brīdi."
+   },
+   "wheneverPlaybackRateChangesFromOtherScripts": {
+      "message": "Ja atskaņošanas ātrumu maina citi skripti"
+   },
+   "wouldHaveLastedIfSpeedWasIntrinsic": {
+      "message": "Cik ilgi atskaņotu normālā (iepriekšdefinētā) atskaņošanas ātrumā, NEIZLAIŽOT klusuma brīžus"
+   }
+}

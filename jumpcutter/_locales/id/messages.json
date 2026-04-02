@@ -1,0 +1,125 @@
+{
+   "absolute": {
+      "message": "absolut"
+   },
+   "audio": {
+      "message": "audio"
+   },
+   "comparedToIntrinsic": {
+      "message": "dibandingkan dengan normal (intrinsik)"
+   },
+   "comparedToSounded": {
+      "message": "dibandingkan dengan suara"
+   },
+   "contact": {
+      "message": "Hubungi kami"
+   },
+   "contentScriptFail": {
+      "message": "Tidak dapat menjalankan skrip konten di halaman ini"
+   },
+   "enable": {
+      "message": "Aktifkan"
+   },
+   "extensionDescription": {
+      "message": "Tonton video hingga 2x lebih cepat dengan melewatkan jeda panjang di antara kalimat secara otomatis"
+   },
+   "fileInputLabel": {
+      "message": "Jatuhkan satu atau beberapa file di sini\natau klik untuk memilih"
+   },
+   "hasErrors": {
+      "message": "Ditemukan error"
+   },
+   "loading": {
+      "message": "Memuat"
+   },
+   "marginAfter": {
+      "message": "Margin sesudah"
+   },
+   "marginBefore": {
+      "message": "Margin sebelum"
+   },
+   "noSuitableElement": {
+      "message": "Tidak dapat menemukan elemen media yang sesuai pada halaman"
+   },
+   "numbersMeanings": {
+      "message": "Arti angka (secara berurutan):"
+   },
+   "openLocalFile": {
+      "message": "buka file lokal"
+   },
+   "overTheLast": {
+      "message": "Selama $duration$ terakhir",
+      "placeholders": {
+         "duration": {
+            "content": "$1"
+         }
+      }
+   },
+   "relativeToSounded": {
+      "message": "relatif terhadap kecepatan suara"
+   },
+   "resetToDefaults": {
+      "message": "Atur ulang ke pengaturan default"
+   },
+   "retry": {
+      "message": "Coba lagi"
+   },
+   "silenceSpeed": {
+      "message": "Kecepatan keheningan"
+   },
+   "silenceSpeedTooltip": {
+      "message": "Kecepatan di mana kita memainkan bagian yang tidak bersuara. \nPada grafik, bagian yang dimainkan dengan kecepatan ini memiliki latar belakang 🟥 merah.$relativeNote$ \n⚠️ Jika nilai ini sangat tinggi (> ~4), awal kalimat juga mungkin mulai dilewati (ini seperti \"Margin sebelum\" lebih kecil).",
+      "placeholders": {
+         "relativeNote": {
+            "content": "$1"
+         }
+      }
+   },
+   "silenceSpeedTooltipRelativeNote": {
+      "message": "\nPerhatikan bahwa ini ditentukan sebagai pengali dari kecepatan yang dibunyikan, jadi misalnya jika kecepatan yang dibunyikan adalah 1,5 dan kecepatan diam adalah 2, nilai absolut yang dihasilkan adalah 3. Anda dapat mengubah perilaku ini pada halaman opsi."
+   },
+   "soundedSpeed": {
+      "message": "Kecepatan normal"
+   },
+   "soundedSpeedTooltip": {
+      "message": "Kecepatan pemutaran video saat video TIDAK dalam keadaan hening, yaitu kecepatan \"normal.\" \nPada bagan, bagian yang diputar pada kecepatan ini memiliki latar belakang 🟩 hijau."
+   },
+   "suggestOpenLocalFile": {
+      "message": "Ingin **$openLocalFile$**?",
+      "placeholders": {
+         "openLocalFile": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeSaved": {
+      "message": "Info waktu yang disimpan"
+   },
+   "timeSavedComparedToIntrinsic": {
+      "message": "Rata-rata seberapa cepat video diputar secara efektif dibandingkan dengan kecepatan normal (intrinsik)"
+   },
+   "timeSavedComparedToSounded": {
+      "message": "Rata-rata seberapa cepat video diputar secara efektif dibandingkan dengan kecepatan suara"
+   },
+   "timeSavedPercentage": {
+      "message": "Persentase penghematan waktu"
+   },
+   "tryOpeningDirectly": {
+      "message": "Coba buka secara langsung"
+   },
+   "useExperimentalAlgorithm": {
+      "message": "Gunakan algoritma eksperimental"
+   },
+   "useExperimentalAlgorithmTooltip": {
+      "message": "➕ 🆕 Sekarang berfungsi di sebagian besar situs web! \n➕ Memungkinkan melewatkan bagian yang tidak bersuara sama sekali alih-alih memutarnya dengan kecepatan yang lebih cepat. \n➕ Tidak ada distorsi audio, penundaan, atau desinkronisasi. \n➖ Dapat merusak fungsionalitas yang berhubungan dengan pemutaran di beberapa situs web.\n➖ Grafik tidak akan menampilkan volume aktual pada bagian yang tidak bersuara (hanya akan menampilkan 0 sebagai gantinya)."
+   },
+   "video": {
+      "message": "video"
+   },
+   "volumeThreshold": {
+      "message": "Kenyaringan suara terendah"
+   },
+   "volumeThresholdTooltip": {
+      "message": "Apabila volume audio saat ini berada di bawah nilai ini, percepatlah. \nPada grafik, ini adalah garis horizontal 🟥 merah. Garis 🟦 biru adalah volume saat ini, jadi ketika garis biru berada di bawah garis merah, itu dianggap sebagai hening."
+   }
+}
