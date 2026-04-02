@@ -21,6 +21,11 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
+    - name: Setup Android NDK
+      uses: android-actions/setup-android@v2
+      with:
+        packages: 'ndk;21.4.7075529'
+
     - name: Create API_KEYS
       run: |
         echo "APP_ID=${{ secrets.TG_APP_ID || '123' }}" > API_KEYS
